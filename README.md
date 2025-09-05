@@ -9,7 +9,7 @@ Each example is self-contained in its own folder with a dedicated README.
 
 ## Examples
 
-- [workspace/](workspace/README.md): Example showing how to use **Deno workspace** with Supabase CLI
+- [workspace/](workspace/): Example showing how to use **Deno workspace** with Supabase CLI
 
 ## License
 
