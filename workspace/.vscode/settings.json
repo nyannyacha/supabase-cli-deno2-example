@@ -1,0 +1,11 @@
+// To enable Deno LSP support, copy and paste this file into the root /.vscode directory.
+{
+  "deno.enablePaths": [
+    "workspace/supabase/functions",
+    "workspace/libs",
+  ],
+  "deno.config": "./workspace/deno.json",
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  }
+}

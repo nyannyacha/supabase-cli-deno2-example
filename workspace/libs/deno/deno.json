@@ -1,0 +1,4 @@
+{
+    "name": "@lib/deno",
+    "exports": "./index.ts"
+}

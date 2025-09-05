@@ -1,0 +1,11 @@
+{
+    "name": "@scope/workspace",
+    "version": "0.1.0",
+    "exports": "./index.ts",
+    "scopes": {
+        "__local": {
+            "__libs": "../../../libs",
+            "__main": "../../../deno.json"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "workspace-example",
+    "private": true,
+    "devDependencies": {
+        "supabase": "^2.40.6"
+    },
+    "scripts": {
+        "login": "supabase --profile profile.json login",
+        "deploy": "supabase functions deploy workspace --use-docker"
+    }
+}

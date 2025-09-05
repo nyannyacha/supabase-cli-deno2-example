@@ -1,0 +1,6 @@
+{
+    "name": "@lib/pkg",
+    "dependencies": {
+        "zod": "^4.1.5"
+    }
+}

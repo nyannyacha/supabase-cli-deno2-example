@@ -1,0 +1,6 @@
+{
+    "workspace": ["./supabase/functions/*", "./libs/*"],
+    "imports": {
+        "cowcow": "npm:cowsay"
+    }
+}
