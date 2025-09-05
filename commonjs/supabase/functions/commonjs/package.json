@@ -1,0 +1,10 @@
+{
+  "type": "commonjs",
+  "main": "index.js",
+  "dependencies": {
+    "cowsay": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.1"
+  }
+}

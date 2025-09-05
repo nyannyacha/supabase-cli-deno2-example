@@ -10,6 +10,7 @@ Each example is self-contained in its own folder with a dedicated README.
 ## Examples
 
 - [workspace/](workspace/): Example showing how to use **Deno workspace** with Supabase CLI
+- [commonjs/](commonjs/): Example showing how to use a commonJS-style Node project as a Supabase Function
 
 ## License
 

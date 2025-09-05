@@ -1,0 +1,4 @@
+// To enable Typescript LSP support, copy and paste this file into the root /.vscode directory.
+{
+    "deno.enable": false,
+}

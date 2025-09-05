@@ -1,0 +1,14 @@
+{
+  "name": "commonjs-example",
+  "private": true,
+  "scripts": {
+    "postinstall": "cd supabase/functions/commonjs && npm install",
+    "login": "supabase --profile profile.json login",
+    "login-staging": "supabase --profile profile-staging.json login",
+    "deploy": "supabase --profile profile.json functions deploy commonjs --use-docker",
+    "deploy-staging": "supabase --profile profile-staging.json functions deploy commonjs --use-docker"
+  },
+  "devDependencies": {
+    "supabase": "^2.40.6"
+  }
+}

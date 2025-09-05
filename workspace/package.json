@@ -1,11 +1,13 @@
 {
-    "name": "workspace-example",
-    "private": true,
-    "devDependencies": {
-        "supabase": "^2.40.6"
-    },
-    "scripts": {
-        "login": "supabase --profile profile.json login",
-        "deploy": "supabase functions deploy workspace --use-docker"
-    }
+  "name": "workspace-example",
+  "private": true,
+  "scripts": {
+    "login": "supabase --profile profile.json login",
+    "login-staging": "supabase --profile profile-staging.json login",
+    "deploy": "supabase --profile profile.json functions deploy workspace --use-docker",
+    "deploy-staging": "supabase --profile profile-staging.json functions deploy workspace --use-docker"
+  },
+  "devDependencies": {
+    "supabase": "^2.40.6"
+  }
 }
