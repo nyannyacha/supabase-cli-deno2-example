@@ -1,6 +1,0 @@
-{
-  "type": "module",
-  "dependencies": {
-    "is-positive": "^3.1.0"
-  }
-}

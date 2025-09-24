@@ -330,3 +330,4 @@ s3_secret_key = "env(S3_SECRET_KEY)"
 
 [functions.example]
 verify_jwt = false
+import_map = "../deno.json"

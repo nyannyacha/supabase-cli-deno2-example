@@ -1,0 +1,8 @@
+{
+    "nodeModulesDir": "manual",
+    "scopes": {
+        "__root": {
+            "__root": "./"
+        }
+    }
+}

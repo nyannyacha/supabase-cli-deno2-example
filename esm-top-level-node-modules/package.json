@@ -1,5 +1,6 @@
 {
   "name": "esm-top-level-node-modules-example",
+  "type": "module",
   "private": true,
   "scripts": {
     "postinstall": "cd supabase/functions && npm install",
@@ -10,5 +11,8 @@
   },
   "devDependencies": {
     "supabase": "^2.40.6"
+  },
+  "dependencies": {
+    "is-positive": "^3.1.0"
   }
 }
