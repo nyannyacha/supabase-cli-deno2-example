@@ -1,0 +1,14 @@
+{
+  "name": "esm-top-level-node-modules-example",
+  "private": true,
+  "scripts": {
+    "postinstall": "cd supabase/functions && npm install",
+    "login": "supabase --profile profile.json login",
+    "login-staging": "supabase --profile profile-staging.json login",
+    "deploy": "supabase --profile profile.json functions deploy example --use-docker",
+    "deploy-staging": "supabase --profile profile-staging.json functions deploy example --use-docker"
+  },
+  "devDependencies": {
+    "supabase": "^2.40.6"
+  }
+}
